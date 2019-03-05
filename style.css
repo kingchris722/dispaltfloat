@@ -42,3 +42,48 @@ p{
  float:left;
  width: 50%;
 }
+
+#clear-left{
+    clear:left;
+}
+
+#clear-right{
+    clear:right;
+}
+
+header{
+border: 2px solid black;
+background-color:red;
+height: 200px;
+}
+
+nav{
+border:2px solid black;
+background-color: green;
+height: 200px;
+}
+
+aside{
+    border:2px solid black;
+    background-color: blue;
+    display: inline-block;
+    float:left;
+    height: 200px;
+    width: 10%;
+    
+}
+
+section{
+    border:2px solid black;
+    background-color: yellow;
+    height: 200px;
+    display: inline-block;
+    width:80%;
+}
+
+footer{
+    border:2px solid black;
+    background-color: purple;
+    height: 200px;
+    clear:both;
+}
